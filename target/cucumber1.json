@@ -1,0 +1,188 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3648551800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 5
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2617986300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 12
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166625200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login into Application",
+            "match": {
+              "location": "ApplicationSteps.login(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "ram1624@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Flower24"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3460496100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login should be Success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success",
+                  "offset": 16
+                }
+              ],
+              "location": "ApplicationSteps.validateLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-30T19:27:24.428Z",
+        "before": [
+          {
+            "result": {
+              "duration": 269082400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "creating a portfolio",
+        "description": "",
+        "id": "login;creating-a-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 407508300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1709469400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on InvestmentTool",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InvestmentTool",
+                  "offset": 9
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26949800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify txtRealTimeQuote",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtRealTimeQuote",
+                  "offset": 7
+                }
+              ],
+              "location": "ApplicationSteps.verifyPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Portfolio"
+          },
+          {
+            "name": "@verifyPortfolio"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/alg/Portfolio.feature",
+    "tags": [
+      {
+        "name": "@Portfolio",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
