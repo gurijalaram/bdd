@@ -1,6 +1,6 @@
 Feature: Login
 
-@Login
+@Login @Porfolio
 Scenario Outline: Login into Rediff Money
     Given open <Browser>
     And Navigate to loginURL
@@ -12,3 +12,4 @@ Scenario Outline: Login into Rediff Money
     Examples:
         |Browser    |   Result  |
         |Chrome     |   Success |
+

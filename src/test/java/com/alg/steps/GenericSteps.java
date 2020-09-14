@@ -13,7 +13,7 @@ public class GenericSteps {
     public GenericSteps(WebConnector conn){
         this.connector = conn;
     }
-
+/*
     @Before
     public void before(Scenario scenario){
         this.connector.initReports(scenario.getName());
@@ -49,5 +49,5 @@ public class GenericSteps {
         this.connector.infoLog("Click on button "+ cssSelector);
     }
 
-
+*/
 }

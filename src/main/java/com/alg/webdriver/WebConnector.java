@@ -92,7 +92,7 @@ public class WebConnector {
         infoLog("Enter Username " + username);
         type(username, "txtUsername");
         infoLog("Click continue button ");
-        click("btnContinue");
+       // click("btnContinue");
         infoLog("Enter Password" );
         type(password, "txtPassword");
         click("chkRememberMe");
